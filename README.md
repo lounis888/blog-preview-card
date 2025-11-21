@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-([alt text](active-state.png))
-([alt text](desktop-design.png))
-([alt text](mobile-design.png))
+(([alt text](active-state.png)))
+(([alt text](desktop-design.png)))
+(([alt text](mobile-design.png)))
 
 ### Links
 
