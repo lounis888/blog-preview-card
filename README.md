@@ -25,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](![alt text](active-state.png))
-![](![alt text](desktop-design.png))
-![](![alt text](mobile-design.png))
+(![alt text](active-state.png))
+(![alt text](desktop-design.png))
+(![alt text](mobile-design.png))
 
 ### Links
 
-- Solution URL: [](https://github.com/lounis888/blog-preview-card)
-- Live Site URL: [](https://lounis888.github.io/blog-preview-card/)
+- Solution URL: (https://github.com/lounis888/blog-preview-card)
+- Live Site URL: (https://lounis888.github.io/blog-preview-card/)
 
 ## My process
 
