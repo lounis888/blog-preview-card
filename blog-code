@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <title>Blog preview card</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 16px;
+                background-color: hsl(47, 88%, 63%);
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+            }
+
+            .blog-card {
+                max-width: 384px;
+                width: 100%;
+                background-color: hsl(0, 0%, 100%);
+                border: 1px solid black;
+                border-radius: 20px;
+                box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%); 
+                padding: 24px;
+                transition: transform 0.3s ease, box-shadow 0.3s ease;         
+            }
+            .blog-card:hover {
+                transform: translate(-2px, -2px);
+                box-shadow: 12px 12px 0px 0px hsl(0, 0%, 7%);
+            }
+
+            .blog-img {
+                width: 100%;
+                margin-bottom: 24px;
+            }
+
+            .blog-image {
+               width: 100%;
+               height: 200px;
+               border-radius: 10px;
+               display: flex;
+               align-items: center;
+               justify-content: center;                  
+            }
+            
+            .icn {
+                display: inline-block;
+                background-color: hsl(47, 90%, 47%);
+                padding: 4px 12px;
+                border-radius: 4px;
+                font-weight: 800;
+                font-size: 0.875rem;
+                margin-bottom: 12px;
+            }
+
+            .publish-date {
+                font-size: 0.875rem;
+                font-weight: 500;
+                margin-bottom: 12px;
+                color: hsl(0, 0%, 7%);
+            }
+
+            h2 {
+                font-weight: 800;
+                margin-bottom: 12px;
+                font-size: 1,5rem;
+            }
+            h2 a {
+                text-decoration-line: none;
+                color: hsl(0, 0%, 7%);
+                transition: color 0.3s ease-in;
+            }
+
+            h2 a:hover {
+                color: hsl(47, 88%, 63%);
+            }
+            
+            .description {
+                font-size: 1rem;
+                line-height: 1.5;
+                color: hsl(0, 0%, 42%);
+                margin-bottom: 24px;
+            }
+
+            .avatar {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+
+            .avatar-image {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+
+            .avatar-name {
+                font-weight: 800;
+                font-size: 0.875rem;
+            }
+
+            /* Responsive Design */
+            @media (max-width: 375px) {
+                .blog-card {
+                    max-width: 327px;
+                    padding: 20px;
+                }
+
+                h2 {
+                    font-size: 1.25rem;
+                }
+
+                .blog-image {
+                    height: 150px;
+                }
+            } 
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="blog-card">
+            <div class="blog-img">
+                <img class="blog-image"  src="illustration-article.svg" alt="image blog">
+            </div> 
+
+            <div class="prev-card">
+                <span class="icn">Learning </span>
+                <p class="publish-date">Published 21 Dec 2023</p>
+                <h2><a href="#">HTML & CSS foundations</a></h2>
+                <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+                <div class="avatar">
+                    <img class="avatar-image" src="image-avatar.webp" alt="image avatar">
+                    <p class="avatar-name">Greg Hooper</p>
+                </div>
+            </div>       
+        </div> 
+    </body>
+</html>
