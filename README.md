@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-(![alt text](c:\blog-ptreview-card\pictures\active-state.png))
-(![alt text](c:\blog-ptreview-card\pictures\desktop-design.png))
-(![alt text](c:\blog-ptreview-card\pictures\mobile-design.png))
+([alt text](active-state.png))
+([alt text](desktop-design.png))
+([alt text](mobile-design.png))
 
 ### Links
 
